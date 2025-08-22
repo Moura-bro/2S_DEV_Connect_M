@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Gantari*/
+@font-face {
+    font-family: Gantari;
+    src: url(../assets/fonts/Gantari/Gantari-VariableFont_wght.ttf),
+        url(../assets/fonts/Gantari/Gantari-Italic-VariableFont_wght.ttf);
+}
+
+/*Variaveis*/
+:root {
+    --cor-preto: #151a1F;
+    --cor-cinza-medio: #1E252B;
+    --cor-cinza-claro: #A0A5BD;
+    --cor-cinza-escuro: #2C3440;
+    --cor-Branco: #ffffff;
+    --cor-Roxo: #403187;
+
+    --borda: 1px solid var(--cor-Branco);
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gantari", sans-serif;
+
+}
+
+body {
+    background-color: var(--cor-Branco);
+
+
+}
+
+h1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
