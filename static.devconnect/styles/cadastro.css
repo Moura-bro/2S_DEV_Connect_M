@@ -1,0 +1,99 @@
+main {
+    background-color: #9f9f9f;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main>div {
+ 
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+form {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 3%;
+}
+
+.estilo-formulario{
+    width: 100%;
+    max-width: 342px;
+    background-color: var(--cor-cinza-medio);
+    border: var(--cor-Roxo);
+    border-radius: 5px;
+  }
+
+.formularios-cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+   
+}
+ 
+
+ 
+  #secao-login{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #secao-login >p{
+    color: var(--cor-Preto);
+    font-size: var(--tamanho-fonte-md)
+  }
+
+  .Textos{
+    text-align: center;
+    width: 100%;
+  } 
+
+  #campo-upload{
+    display: none;
+  }
+
+  #upload{
+    display: inline-block;
+    width: 100%;
+    background-color: var(--cor-cinza-claro);
+    border-radius: 5px;
+    font-size: var(--tamanho-fonte-sm);
+    text-align: center;
+    padding: 10px;
+  }
+
+  .formulario-botao-azul-cadastro{
+    width: 100%;
+    background-color: var(--cor-Roxo);
+    border-radius: 5px;
+    font-size: var(--tamanho-fonte-sm);
+    text-align: center;
+    padding: 10px;
+    border: none;
+  }
+
+ #caixa{
+    
+    height: 30px;
+    background-color: var(--cor-cinza-claro);
+    border-radius: 5px;
+ 
+
+
+  }
+   
+
+  

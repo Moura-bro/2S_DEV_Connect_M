@@ -9,10 +9,10 @@
 
 /*Variaveis*/
 :root {
-    --cor-preto: #151a1F;
-    --cor-cinza-medio: #1E252B;
+    --cor-preto: #13171c;
+    --cor-cinza-escuro: #1E252B;
     --cor-cinza-claro: #A0A5BD;
-    --cor-cinza-escuro: #2C3440;
+    --cor-cinza-medio: #2C3440;
     --cor-Branco: #ffffff;
     --cor-Roxo: #403187;
 
@@ -43,4 +43,38 @@ h1{
     z-index: -1;
     opacity: 0;
 }
+/*Formulario*/
+.formulario-botao-azul{
+  background-color: var(--cor-Roxo);
+  border-radius: var(--borda-arredondada);
+  border: none;
+  height: 35px;
 
+  color: var(--cor-Branco);
+  font-size: var(--tamanho-fonte-sm);
+
+
+}
+
+.formularios-campos>input{
+border: var(--borda);
+height: 35px;
+background-color: var(--cor-cinza-claro);
+color: var(--cor-cinza-escuro);
+font-size: var(--tamanho-fonte-sm);
+border-radius: var(--borda-arredondada);
+}
+
+.formularios-campos>label{
+font-size: var(--tamanho-fonte-sm);
+color: var(--cor-preto);
+font-weight: 600;
+
+
+}
+
+.inv{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
