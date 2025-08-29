@@ -27,11 +27,7 @@ form {
 }
 
 .estilo-formulario{
-    width: 100%;
     max-width: 342px;
-    background-color: var(--cor-cinza-medio);
-    border: var(--cor-Roxo);
-    border-radius: 5px;
   }
 
 .formularios-cadastro {
@@ -61,19 +57,7 @@ form {
     width: 100%;
   } 
 
-  #campo-upload{
-    display: none;
-  }
-
-  #upload{
-    display: inline-block;
-    width: 100%;
-    background-color: var(--cor-cinza-claro);
-    border-radius: 5px;
-    font-size: var(--tamanho-fonte-sm);
-    text-align: center;
-    padding: 10px;
-  }
+ 
 
   .formulario-botao-azul-cadastro{
     width: 100%;
