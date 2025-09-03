@@ -9,7 +9,8 @@
 
 /*Variaveis*/
 :root {
-    --cor-preto: #13171c;
+    --cor-preto: #000;
+    --cor-Azul-escuro: #13171c;
     --cor-cinza-escuro: #1c2329;
     --cor-cinza-claro: #A0A5BD;
     --cor-cinza-medio: #2C3440;
@@ -29,11 +30,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Gantari", sans-serif;
-
+    outline-color: #403187;
 }
 
 body {
-    background-color: var(--cor-Branco);
+    background-color: #262D33;
 }
 
 h1 {
@@ -71,25 +72,30 @@ h1 {
 
 
 }
+
 .estilo-formulario {
     width: 100%;
     background-color: var(--cor-cinza-medio);
     border: var(--cor-Roxo);
-  }
+}
 
-  #campo-upload{
+#campo-upload {
     display: none;
-  }
+}
 
-  #upload{
+#upload {
     display: inline-block;
     width: 100%;
+    max-width: 300px;
+    min-height: 35px;
     background-color: var(--cor-cinza-claro);
+    color: var(--cor-preto);
     border-radius: 5px;
     font-size: var(--tamanho-fonte-sm);
     text-align: center;
-    padding: 10px;
-  }
+    padding: 5px;
+    font-weight: 500;
+}
 
 
 
@@ -137,7 +143,7 @@ h1 {
 
 
 
-#foto-de-perfil {
+.foto-de-perfil {
     width: 40px;
     height: 40px;
     object-fit: cover;
@@ -164,7 +170,4 @@ h1 {
         display: none;
     }
 }
-
-
-
 

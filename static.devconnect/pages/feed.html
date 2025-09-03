@@ -38,7 +38,7 @@
                     <img src="../assets/imagens/icone-coracao-azul.svg" alt="">
                 </a>
                 <a href="#">
-                    <img id="foto-de-perfil" src="../assets/imagens/f7f2a9726a29b3f2666ef6664bb9e024.jpg" alt="">
+                    <img class="foto-de-perfil" src="../assets/imagens/f7f2a9726a29b3f2666ef6664bb9e024.jpg" alt="">
                 </a>
             </div>
         </nav>
@@ -140,23 +140,60 @@
                 </article>
             </section>
 
-            <section id="criar-publi">
+            <section id="criar-publi" class="estilo-formulario">
                 <h2>Publicação</h2>
 
                 <form action="">
-                    <textarea name="" id=""></textarea>
+                    <textarea name="" placeholder="Digite a descrição do Post..." id=""></textarea>
 
                     <footer>
-                        <div>
-                            <label  id="upload" for="campo-upload">Faca o upload da sua imagem aqui...</label>
+                        <div id="upload">
+                            <label for="campo-upload">Faca o upload da sua imagem aqui...</label>
                             <input class="Caixa-de-Texto" type="file" name="" id="campo-upload">
                         </div>
 
-                        <button type="submit" class="formulario-botao-azul">Publicar</button>
+                        <button type="submit" class="formulario-botao-azul">Postar</button>
 
                     </footer>
 
                 </form>
+
+            </section>
+
+            <section id="publicacoes">
+
+                <article class="card-publi">
+                    <header>
+                        <a href="#">
+                            <img class="foto-de-perfil" src="../assets/imagens/f7f2a9726a29b3f2666ef6664bb9e024.jpg"
+                                alt="">
+                            alan_thebest_brazuca
+                        </a>
+                    </header>
+
+                    <figure>
+                        <img class="imagem-publicacao"
+                            src="../assets/imagens/grand-theft-auto-vi-pc-jogo-rockstar-cover.jpg" alt="">
+                        <figcaption>
+                            alanzoka
+                            <p class="descrição-publicacao">Gta-VI.2025 Sera que vai ser melhor que rdd 2</p>
+                        </figcaption>
+
+                        <div class="interacoes-publicacao">
+                            <button type="button">
+                                <img src="../assets/imagens/icone-coracao-preto.svg" alt="">
+                            </button>
+
+                            <button type="button">
+                                <img src="../assets/imagens/icone-comentario-preto.svg" alt="">
+                            </button>
+
+                            <span>3.4M</span>
+                        </div>
+
+                        <button type="button">Vertodos os comentarios...</button>
+                    </figure>
+                </article>
 
             </section>
         </div>
