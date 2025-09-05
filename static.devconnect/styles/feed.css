@@ -73,7 +73,7 @@ main {
 }
 
 #criar-publi>h2 {
-    background-color: var(--cor-Roxo);
+    background-color: transparent;
     color: var(--cor-Branco);
     font-weight: 700;
     margin-bottom: 20px;
@@ -157,16 +157,7 @@ main {
     font-weight: 400;
 }
 
-.interacoes-publicacao {
-    display: flex;
-    width: 70px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    order: 1;
-    margin-left: 15px;
-    margin-top: 15px;
-    
-}
+
 
 .interacoes-publicacao>button {
     background-color: transparent;
@@ -183,4 +174,14 @@ main {
     margin-left: 15px;
 
     order: 3;
+}
+.interacoes-publicacao {
+    display: flex;
+    width: 70px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    order: 1;
+    margin-left: 15px;
+    margin-top: 15px;
+    
 }

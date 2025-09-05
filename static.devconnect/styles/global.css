@@ -46,7 +46,7 @@ h1 {
 /*Formulario*/
 .formulario-botao-azul {
     background-color: var(--cor-Roxo);
-    border-radius: var(--borda-arredondada);
+    border-radius: 5px;
     border: none;
     height: 35px;
 

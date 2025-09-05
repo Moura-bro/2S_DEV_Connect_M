@@ -1,0 +1,111 @@
+/* MAIN empilhando perfil e publicações */
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;   /* empilha um embaixo do outro */
+    align-items: center;      /* centraliza horizontalmente */
+    padding: 20px;
+    gap: 24px;
+}
+
+/* Perfil */
+#perfil {
+    width: 100%;
+    max-width: 900px;  /* corrigido: antes estava 900vh */
+    border-bottom: 1px solid #fff;
+    padding: 15px;
+    background: transparent;
+}
+
+.campo-perfil {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#Foto {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.area-perfil .info-p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.Estatisticas {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.info-link span {
+    color: #aaa;
+    margin-right: 15px;
+}
+
+.info-link a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #7a2ff8;
+}
+
+/* Publicações */
+#publicacoes {
+    width: 100%;
+    max-width: 900px; /* mesma largura do perfil */
+    padding: 20px 15px;
+}
+
+#publicacoes h2 {
+    color: #a464f7;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: #2a2a3d;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.post-footer {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+.comments-link {
+    font-size: 13px;
+    text-decoration: none;
+    color: #7a2ff8;
+}
